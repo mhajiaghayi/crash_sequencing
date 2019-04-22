@@ -1,6 +1,6 @@
 
-by: Mahdi Hajiaghayi, Ehsan Vahedi
-date : April 2018
+By: Mahdi Hajiaghayi, Ehsan Vahedi
+Date : April 2018
 
 
 
