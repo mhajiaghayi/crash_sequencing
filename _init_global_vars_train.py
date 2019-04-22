@@ -6,9 +6,7 @@ CRASH_INDEX = "1"
 
 ROOT_DIR = 'tfboard'
 
-ACTIONS_TO_BE_FILTERED = ['Office.Text.GDIAssistant.FontManagerDestructor', 
-                          'Office.Excel.Command.CloseAll', 
-                          'Office.UX.RibbonX.RibbonIsBeingCleanedUp']
+ACTIONS_TO_BE_FILTERED = ['']
 
 
 # configs = { 'batchSize' : 512,
@@ -37,6 +35,6 @@ configs = { 'batchSize' : 512,
             }    
 
 
-classWeights = {0: 1.,
-				1: 1.}
+classWeights = {0: .5,
+		1: .5}
 
