@@ -21,14 +21,15 @@ The requirement packages are listed in requirement.txt. it's recommended to use 
 
 ## Usage
 In order to train a network for your input data, you first need to specify the path of your data in 
-_iniit_global_vars_train. The input data must have three columns at least: id, sequence, output. For more information please look at data/test_action.txt. In this file, we have one extra column as well that was supposed to specify the platform.
+_init_global_vars_train. The input data must have three columns at least: id, sequence, output. For more information please look at data/test_action.txt. In this file, we have one extra column as well that was supposed to specify the platform.
 this file is processed by database/seqDb.py class. Hence, by modifying this file you can have more columns.
 
 As the optimal hyper parameters might be different file inputs, we have included another file 
 called seqdb_lstm_baysian_opt.py that basically optimizes the hyper parameters and then you can use them
 in the seqdb_lstm_train.py.
 
-You can kick in the training by 
+You can kick in the tra
+ng by 
 ```
 python seqdb_lstm_train.py 
 ```
