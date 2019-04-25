@@ -28,14 +28,13 @@ As the optimal hyper parameters might be different file inputs, we have included
 called seqdb_lstm_baysian_opt.py that basically optimizes the hyper parameters and then you can use them
 in the seqdb_lstm_train.py.
 
-You can kick in the tra
-ng by 
+You can start training by 
 ```
 python seqdb_lstm_train.py 
 ```
 
 the outputs of the training is stored in /model. 
-for extraction, you need to specify the postfix of the model file in the init_global_vars_extract.py and just 
+For extraction, you need to specify the postfix of the model file in the init_global_vars_extract.py and just 
 run the 
 
 ```
