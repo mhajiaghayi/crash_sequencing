@@ -46,6 +46,6 @@ tensorpack==0.8.6
 termcolor==1.1.0
 Theano==0.9.0
 tqdm==4.19.4
-urllib3==1.23
+urllib3==1.26.5
 Werkzeug==0.12.2
 WMI==1.4.9
